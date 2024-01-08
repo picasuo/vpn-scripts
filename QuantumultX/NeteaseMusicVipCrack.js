@@ -11,7 +11,7 @@ VIP音乐试听权限+
 
 [rewrite_local]
 # > 网易云解锁VIP
-^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/Wyy.js
+^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ url script-request-header https://raw.githubusercontent.com/picasuo/vpn-scripts/main/QuantumultX/NeteaseMusicVipCrack.js
 
 [mitm] 
 hostname = *.music.163.com
